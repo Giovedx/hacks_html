@@ -1,0 +1,1025 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+
+
+/*TELEFONO Y TABLES*/
+@media(max-width:800px)
+{
+/*Formateo*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: white;
+}
+
+
+.circulo
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 150px;
+    height: 50px;
+
+}
+
+/* IMAGEN FONDO */
+.imagen 
+{   
+    display: flex;
+    background-size: cover;
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding-bottom: 600px;
+    margin-top: -250px;
+    width: 100%;
+    height: 200px;
+   
+}
+
+/* BOTONES Y CONTENIDO*/
+.boton1
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    font-family:'Inter', sans-serif;
+    line-height: 24px;
+    bottom: 500px;
+    left: 10%;
+    border-radius: 18px;
+    color: white;
+    width: 99px;
+    height: 24px;
+    background-color: black;
+    
+}
+
+.boton2
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #00BF63;
+    bottom: 510px;
+    left: 66%;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    font-family:'Inter', sans-serif;
+    
+}
+
+.boton2 #uno
+{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    line-height: 110px;
+    margin-left: -7px;
+    font-size: 30px;
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+}
+
+.boton2 #dos
+{
+    
+    color: white;
+    margin-left: -60px;
+    text-align: center;
+    line-height: 170px;
+    font-size: 23px;
+}
+
+
+/*LETRAS 1 Y 2*/
+.letras1
+{
+    display: flex;
+    font-family:'Inter', sans-serif;
+    position: relative;
+    font-size: 14px;
+    width: 285px;
+    height: 100px;
+    bottom: 610px;
+    left: 10%;
+    line-height: 2.5em;
+
+
+}
+
+.letras2 h6
+{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: justify;
+    position: relative;
+    width: 249px;
+    height: 70px;
+    bottom: 590px;
+    left: 10%;
+
+}
+
+.catalogo
+{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 340px;
+    width: 100%;
+    height: 70%;
+  
+}
+
+/* SOLO IMAGENES*/
+.catalogo #catalogo1
+{
+    background-image: url(../img/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.catalogo #catalogo2
+{
+    background-image: url(../img/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.catalogo #catalogo3
+{
+    background-image: url(../img/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.catalogo #catalogo4
+{
+    background-image: url(../img/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.catalogo #catalogo5
+{
+    background-image: url(../img/6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.catalogo #catalogo6
+{
+    background-image: url(../img/16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 20%;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+
+/* NOMBRES Y PRECIOS  */
+.catalogo #catalogo1 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+
+}
+
+.catalogo #catalogo2 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo3 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo4 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo5 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo6 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 280px;
+    margin-left: 10px; 
+}
+
+/*TACHADO ROJO AL PRECIO*/
+.catalogo #catalogo1 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo2 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo3 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo4 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo5 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo6 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+
+/* footer */
+.botonFooter
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 13px;
+    font-family:'Inter', sans-serif;
+    line-height: 24px;
+    border-radius: 18px;
+    color: white;
+    top: 30%;
+    left: 12%;
+    width: 99px;
+    height: 24px;
+    background-color: #00BF63;
+    z-index: 3;
+    
+}
+
+.footer1
+{
+    display: flex;
+    position: relative;
+    background-color: black;
+    left: 15px;
+    top: 60px;
+    width: 95%;
+    height: 85px;
+    z-index: 2;
+
+}
+
+
+}
+
+/*DESKTOP*/
+@media(min-width:801px)
+{
+/*Formateo*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: white;
+}
+
+
+.circulo
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 140px;
+    width: 150px;
+    height: 50px;
+
+}
+
+/* IMAGEN FONDO */
+.imagen 
+{   
+    display: flex;
+    background-size: cover;
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding-bottom: 600px;
+    margin-top: -250px;
+    width: 100%;
+    height: 200px;
+   
+}
+
+/* BOTONES Y CONTENIDO*/
+.boton1
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    font-family:'Inter', sans-serif;
+    line-height: 24px;
+    bottom: 500px;
+    left: 10%;
+    border-radius: 18px;
+    color: white;
+    width: 99px;
+    height: 24px;
+    background-color: black;
+    
+}
+
+.boton2
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #00BF63;
+    bottom: 510px;
+    left: 66%;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    font-family:'Inter', sans-serif;
+    
+}
+
+.boton2 #uno
+{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    line-height: 110px;
+    margin-left: -7px;
+    font-size: 30px;
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+}
+
+.boton2 #dos
+{
+    
+    color: white;
+    margin-left: -60px;
+    text-align: center;
+    line-height: 170px;
+    font-size: 23px;
+}
+
+
+/*LETRAS 1 Y 2*/
+.letras1
+{
+    display: flex;
+    font-family:'Inter', sans-serif;
+    position: relative;
+    font-size: 14px;
+    width: 285px;
+    height: 100px;
+    bottom: 610px;
+    left: 10%;
+    line-height: 2.5em;
+
+
+}
+
+.letras2 h6
+{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: justify;
+    position: relative;
+    width: 249px;
+    height: 70px;
+    bottom: 590px;
+    left: 10%;
+
+}
+
+.catalogo
+{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 340px;
+    width: 100%;
+    height: 70%;
+  
+}
+
+/* SOLO IMAGENES*/
+.catalogo #catalogo1
+{
+    background-image: url(../img/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 13%;
+    margin-top: 120px;
+}
+
+.catalogo #catalogo2
+{
+    background-image: url(../img/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.catalogo #catalogo3
+{
+    background-image: url(../img/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 70px;
+    margin-top: 120px;
+    
+}
+
+.catalogo #catalogo4
+{
+    background-image: url(../img/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 13%;
+    margin-top: 120px;
+}
+
+.catalogo #catalogo5
+{
+    background-image: url(../img/6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+.catalogo #catalogo6
+{
+    background-image: url(../img/16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 70px;
+    margin-top: 120px;
+    z-index: 1;
+}
+
+
+/* NOMBRES Y PRECIOS  */
+.catalogo #catalogo1 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+
+}
+
+.catalogo #catalogo2 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo3 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo4 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo5 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo6 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 280px;
+    margin-left: 10px; 
+}
+
+/*TACHADO ROJO AL PRECIO*/
+.catalogo #catalogo1 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo2 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo3 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo4 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo5 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo6 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+
+/* footer */
+.botonFooter
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 13px;
+    font-family:'Inter', sans-serif;
+    line-height: 24px;
+    border-radius: 18px;
+    color: white;
+    top: 30%;
+    left: 12%;
+    width: 99px;
+    height: 24px;
+    background-color: #00BF63;
+    z-index: 3;
+    
+}
+
+.footer1
+{
+    display: flex;
+    position: relative;
+    background-color: black;
+    left: 15px;
+    top: 60px;
+    width: 95%;
+    height: 85px;
+    z-index: 2;
+
+}
+
+
+}
+
+/*DESKTOP*/
+@media(min-width:1100px)
+{
+/*Formateo*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: white;
+}
+
+
+.circulo
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 150px;
+    height: 50px;
+
+}
+
+/* IMAGEN FONDO */
+.imagen 
+{   
+    display: flex;
+    background-size: cover;
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding-bottom: 600px;
+    margin-top: -250px;
+    width: 100%;
+    height: 200px;
+   
+}
+
+/* BOTONES Y CONTENIDO*/
+.boton1
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    font-family:'Inter', sans-serif;
+    line-height: 36px;
+    bottom: 480px;
+    left: 15%;
+    border-radius: 18px;
+    color: white;
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    
+}
+
+.boton2
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #00BF63;
+    bottom: 510px;
+    left: 66%;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    font-family:'Inter', sans-serif;
+    
+}
+
+.boton2 #uno
+{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    line-height: 140px;
+    margin-left: -7px;
+   
+    font-family:'Inter', sans-serif;
+    font-size: 45px;
+}
+
+.boton2 #dos
+{
+    
+    color: white;
+    margin-left: -80px;
+    text-align: center;
+    line-height: 210px;
+    font-size: 33px;
+}
+
+
+/*LETRAS 1 Y 2*/
+.letras1
+{
+    display: flex;
+    font-family:'Inter', sans-serif;
+    position: relative;
+    font-size: 18px;
+    width: 350px;
+    height: 100px;
+    bottom: 610px;
+    left: 15%;
+    line-height: 2.5em;
+
+
+}
+
+.letras2 h6
+{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    position: relative;
+    width: 299px;
+    height: 70px;
+    bottom: 560px;
+    left: 15%;
+
+}
+
+.catalogo
+{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 340px;
+    width: 100%;
+    height: 70%;
+  
+}
+
+/* SOLO IMAGENES*/
+.catalogo #catalogo1
+{
+    background-image: url(../img/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.catalogo #catalogo2
+{
+    background-image: url(../img/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.catalogo #catalogo3
+{
+    background-image: url(../img/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.catalogo #catalogo4
+{
+    background-image: url(../img/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.catalogo #catalogo5
+{
+    background-image: url(../img/6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.catalogo #catalogo6
+{
+    background-image: url(../img/16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    left: 100px;
+    margin-left: 15%;
+    margin-top: 10%;
+     z-index: 1;
+}
+
+
+/* NOMBRES Y PRECIOS  */
+.catalogo #catalogo1 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+
+}
+
+.catalogo #catalogo2 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo3 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo4 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo5 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.catalogo #catalogo6 p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 280px;
+    margin-left: 10px; 
+}
+
+/*TACHADO ROJO AL PRECIO*/
+.catalogo #catalogo1 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo2 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo3 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo4 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo5 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+.catalogo #catalogo6 span 
+{
+    text-decoration: line-through ;
+    text-decoration-color: red;  
+}
+
+
+/* footer */
+.botonFooter
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 13px;
+    font-family:'Inter', sans-serif;
+    line-height: 24px;
+    border-radius: 18px;
+    color: white;
+    top: 30%;
+    left: 12%;
+    width: 99px;
+    height: 24px;
+    background-color: #00BF63;
+    z-index: 3;
+    
+}
+
+.footer1
+{
+    display: flex;
+    position: relative;
+    background-color: black;
+    left: 15px;
+    top: 60px;
+    width: 95%;
+    height: 85px;
+    z-index: 2;
+
+}
+
+
+}

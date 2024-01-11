@@ -1,0 +1,147 @@
+.conteiner
+{
+    display: flex;
+    text-align: center;
+    display: contents;
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+}
+#borde
+{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#season
+{
+    
+    font-size: 15px; 
+    margin-bottom: -55px ;
+}
+
+#sale
+{
+    
+    font-size: 70px;
+    color: #cc9d37;
+     
+}
+
+#off
+{
+    margin-top: -50px;
+    font-size: 30px;
+    margin-bottom: -15px;
+    
+}
+
+#lorem
+{
+    font-size: 16px ;
+    margin-top: 25px;
+    font-family:Arial;
+    margin-bottom: 100px;
+}
+
+
+.part1
+{
+    margin-bottom: 70px;
+}
+
+.lineas
+{
+    position: relative;
+    width: 97%;
+    height: 20px;
+    background: rgb(238, 238, 181);
+    margin: 10px 0px 0 10px;
+    z-index: -1;
+}
+
+.imgs1
+{
+    
+    position: absolute;
+    width: 140px;
+    height: 200px;
+    left: 15%;
+    margin-top: -30px;
+    
+}
+
+.imgs2
+{
+    
+    
+    position: absolute;
+    width: 140px;
+    height: 200px;
+    margin-left: 10px;
+    left: 37%;
+    margin-top: -30px;
+    
+}
+.imgs3
+{
+    
+    
+    position: absolute;
+    width: 140px;
+    height: 200px;
+    margin-left: -20px;
+    left: 66%;
+    margin-top: -30px;
+    
+}
+
+
+
+.precio1
+{   
+    font-weight: 501 ;
+    width: 110px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 18%;
+    
+    
+}
+
+.precio2
+{
+    font-weight: 501 ;
+    width: 110px;
+    height: 30px;
+    margin-top: -47px;
+    margin-left: 41%;
+    
+    
+}
+
+.precio3
+{
+    font-weight: 501 ;
+    width: 110px;
+    height: 30px;
+    margin-top: -47px;
+    margin-left: 65%;
+   
+    
+}
+
+#your
+{
+    margin-top: 100px;
+    color: #cc9d37;
+    font-size: ;
+}
+
+#yourlorem
+{
+    margin-top: -20px;
+    margin-bottom: 8%;
+    font-size: 8px;
+}
+
